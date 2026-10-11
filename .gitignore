@@ -1,0 +1,63 @@
+# .NET build artifacts
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/*
+!.vscode/extensions.json
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Test and coverage results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+**/TestResults/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+.nuget/
+
+# EF Core migrations working files (keep generated migrations, ignore local tooling cache)
+**/efbundle
+
+# Local configuration and secrets
+appsettings.*.local.json
+appsettings.Production.json
+*.env
+.env
+secrets.json
+
+# Database files
+*.mdf
+*.ldf
+*.db
+
+# OS files
+.DS_Store
+
+# Generated scenario run evidence (workspaces, artifacts, reports) — reproducible, not source
+/runs/
+
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Rider/VS temp
+*.tmp
+*.bak

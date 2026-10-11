@@ -1,0 +1,11 @@
+{
+  "scenarioId": "ambiguous",
+  "name": "Ambiguous Requirement — Redirect Performance and Analytics Accuracy",
+  "requirementsPath": "requirements.md",
+  "fixtureSourcePath": null,
+  "allowedTools": [ "write-files", "list-directory", "read-file" ],
+  "approvalMode": "DenyAll",
+  "maxDegreeOfParallelism": 2,
+  "approvalRequiredAtOrAbove": "High",
+  "maxTotalDurationSeconds": 300
+}

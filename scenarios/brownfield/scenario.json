@@ -1,0 +1,11 @@
+{
+  "scenarioId": "brownfield",
+  "name": "Brownfield Legacy URL Shortener — Add Expiry",
+  "requirementsPath": "requirements.md",
+  "fixtureSourcePath": "fixture",
+  "allowedTools": [ "write-files", "list-directory", "read-file", "dotnet-build", "dotnet-test" ],
+  "approvalMode": "AutoApprove",
+  "maxDegreeOfParallelism": 2,
+  "approvalRequiredAtOrAbove": "High",
+  "maxTotalDurationSeconds": 600
+}
